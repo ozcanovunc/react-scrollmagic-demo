@@ -1,0 +1,93 @@
+{
+  "core": {
+    "name": "Ozcan Ovunc",
+    "occupation": "Team Lead @Smartface",
+    "image": "https://www.gravatar.com/avatar/377f15e733cc48e22dc47084cf21cedb?s=600",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ante sit amet sem faucibus euismod. Praesent ac mauris consectetur erat posuere suscipit. Quisque aliquam nunc turpis, pellentesque porttitor risus pulvinar eget. Donec blandit ligula libero. Aliquam ut libero lorem. Quisque imperdiet tempor tristique. Praesent congue enim vitae turpis pretium, ut tincidunt libero dictum. Nunc ornare pulvinar rutrum.",
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/ozcanovunc",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ozcanovunc",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "medium",
+        "url": "https://medium.com/@ozcanovunc",
+        "className": "fa fa-medium"
+      },
+      {
+        "name": "instagram",
+        "url": "https://instagram.com/ozcanovunc",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:ozcanovunc@outlook.com",
+        "className": "fa fa-envelope"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "Gebze Technical University",
+        "degree": "Bachelor of Engineering (B.Eng.)",
+        "graduated": "2012 - 2016",
+        "description": "Computer Engineering, Ranked in top 10%"
+      }
+    ],
+    "work": [
+      {
+        "company": "Smartface",
+        "title": "Team Lead",
+        "years": "March 2019 - Present",
+        "description": "TODO"
+      }
+    ],
+    "skills": [
+      {
+        "name": "TODO",
+        "level": "60%"
+      },
+      {
+        "name": "TODO",
+        "level": "55%"
+      },
+      {
+        "name": "TODO",
+        "level": "50%"
+      },
+      {
+        "name": "TODO",
+        "level": "90%"
+      },
+      {
+        "name": "TODO",
+        "level": "80%"
+      },
+      {
+        "name": "TODO",
+        "level": "50%"
+      },
+      {
+        "name": "TODO",
+        "level": "80%"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ante sit amet sem faucibus euismod. Praesent ac mauris consectetur erat posuere suscipit. Quisque aliquam nunc turpis, pellentesque porttitor risus pulvinar eget. Donec blandit ligula libero. Aliquam ut libero lorem. Quisque imperdiet tempor tristique. Praesent congue enim vitae turpis pretium, ut tincidunt libero dictum. Nunc ornare pulvinar rutrum.",
+      "user": "Lorem ipsum dolor"
+    },
+    {
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ante sit amet sem faucibus euismod. Praesent ac mauris consectetur erat posuere suscipit. Quisque aliquam nunc turpis, pellentesque porttitor risus pulvinar eget. Donec blandit ligula libero. Aliquam ut libero lorem. Quisque imperdiet tempor tristique. Praesent congue enim vitae turpis pretium, ut tincidunt libero dictum. Nunc ornare pulvinar rutrum.",
+      "user": "Lorem ipsum dolor"
+    }
+  ]
+}
