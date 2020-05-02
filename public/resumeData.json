@@ -51,31 +51,23 @@
     ],
     "skills": [
       {
-        "name": "TODO",
+        "name": "TODO1",
         "level": "60%"
       },
       {
-        "name": "TODO",
+        "name": "TODO2",
         "level": "55%"
       },
       {
-        "name": "TODO",
+        "name": "TODO3",
         "level": "50%"
       },
       {
-        "name": "TODO",
+        "name": "TODO4",
         "level": "90%"
       },
       {
-        "name": "TODO",
-        "level": "80%"
-      },
-      {
-        "name": "TODO",
-        "level": "50%"
-      },
-      {
-        "name": "TODO",
+        "name": "TODO5",
         "level": "80%"
       }
     ]
@@ -83,11 +75,11 @@
   "testimonials": [
     {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ante sit amet sem faucibus euismod. Praesent ac mauris consectetur erat posuere suscipit. Quisque aliquam nunc turpis, pellentesque porttitor risus pulvinar eget. Donec blandit ligula libero. Aliquam ut libero lorem. Quisque imperdiet tempor tristique. Praesent congue enim vitae turpis pretium, ut tincidunt libero dictum. Nunc ornare pulvinar rutrum.",
-      "user": "Lorem ipsum dolor"
+      "user": "Lorem ipsum dolor1"
     },
     {
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vehicula ante sit amet sem faucibus euismod. Praesent ac mauris consectetur erat posuere suscipit. Quisque aliquam nunc turpis, pellentesque porttitor risus pulvinar eget. Donec blandit ligula libero. Aliquam ut libero lorem. Quisque imperdiet tempor tristique. Praesent congue enim vitae turpis pretium, ut tincidunt libero dictum. Nunc ornare pulvinar rutrum.",
-      "user": "Lorem ipsum dolor"
+      "user": "Lorem ipsum dolor2"
     }
   ]
 }
