@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import About from "./Components/About";
@@ -11,23 +10,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      resumeData: {}
+      resumeData: {},
     };
   }
 
   componentDidMount() {
-    $.ajax({
-      url: "/resumeData.json",
-      dataType: "json",
-      cache: false,
-      success: function(data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: (xhr, status, err) => {
-        console.log(err);
-        alert(err);
-      }
-    });
+    fetch("/resumeData.json")
+      .then((res) => res.json())
+      .then((resumeData) => this.setState({ resumeData }))
+      .catch((err) => console.error(err));
   }
 
   render() {
