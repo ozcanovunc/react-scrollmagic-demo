@@ -1,4 +1,4 @@
-# ozcanovunc.me
+# ozcanovunc.github.io
 
 Personal website built with React
 

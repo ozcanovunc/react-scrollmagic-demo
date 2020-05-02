@@ -1,6 +1,7 @@
 {
   "name": "ozcanovunc.me",
   "version": "1.0.0",
+  "homepage": "https://ozcanovunc.github.io/",
   "dependencies": {
     "express": "^4.17.1",
     "gsap": "^3.2.6",
