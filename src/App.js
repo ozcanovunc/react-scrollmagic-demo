@@ -10,10 +10,10 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("public/resumeData.json")
-      .then((res) => res.json())
-      .then((resumeData) => this.setState({ resumeData }))
-      .catch((err) => console.error(err));
+    // fetch("public/resumeData.json")
+    //   .then((res) => res.json())
+    //   .then((resumeData) => this.setState({ resumeData }))
+    //   .catch((err) => console.error(err));
   }
 
   render() {

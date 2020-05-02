@@ -13,7 +13,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "public/index.html",
+      template: "./src/index.html",
     }),
   ],
   resolve: {
@@ -27,9 +27,5 @@ module.exports = {
         "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators.js"
       ),
     },
-  },
-  output: {
-    filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist"),
-  },
+  }
 };

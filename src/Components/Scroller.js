@@ -35,7 +35,7 @@ export default class Scroller extends Component {
             <h1>Ozcan Ovunc</h1>
             <video
                 ref={(e) => this.videoRef = e}
-                src="/public/videos/background.mp4"
+                src="/src/assets/videos/background.mp4"
             />
         </div>    
       );

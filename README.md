@@ -6,5 +6,5 @@ Personal website built with React
 
 ```sh
 yarn
-yarn run start
+yarn run build:dev
 ```
