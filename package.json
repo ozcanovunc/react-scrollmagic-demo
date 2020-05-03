@@ -4,7 +4,6 @@
   "homepage": "https://ozcanovunc.github.io/",
   "dependencies": {
     "@material-ui/core": "^4.9.12",
-    "express": "^4.17.1",
     "gsap": "^3.2.6",
     "react": "16.13.1",
     "react-dom": "16.13.1",
