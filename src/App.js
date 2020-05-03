@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Scroller from "./Components/Scroller";
+//import Button from '@material-ui/core/Button';
 
 class App extends Component {
   constructor(props) {
@@ -17,7 +18,11 @@ class App extends Component {
   }
 
   render() {
-    return <Scroller></Scroller>;
+    return (
+      <div>
+        <Scroller></Scroller>
+      </div>
+    );
   }
 }
 

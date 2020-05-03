@@ -1,8 +1,9 @@
 {
-  "name": "ozcanovunc.me",
+  "name": "ozcanovunc.github.io",
   "version": "1.0.0",
   "homepage": "https://ozcanovunc.github.io/",
   "dependencies": {
+    "@material-ui/core": "^4.9.12",
     "express": "^4.17.1",
     "gsap": "^3.2.6",
     "react": "16.13.1",
