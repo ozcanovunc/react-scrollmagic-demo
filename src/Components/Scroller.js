@@ -12,7 +12,7 @@ export default class Scroller extends Component {
 
   componentDidMount() {
     new ScrollMagic.Scene({
-        duration: 6000, // Time of video
+        duration: 4000, // Time of video
         triggerElement: this.triggerRef,
         triggerHook: 0
       })

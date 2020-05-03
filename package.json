@@ -12,8 +12,8 @@
   },
   "scripts": {
     "build:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "build:prod": "webpack --config webpack.prod.js",
-    "start": "webpack --config webpack.prod.js && node server.js"
+    "build:prod": "webpack --config webpack.prod.js && echo 'all done'",
+    "start": "webpack --config webpack.prod.js && echo 'all done' && node server.js"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
