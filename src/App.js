@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Scroller from "./Components/Scroller";
-//import Button from '@material-ui/core/Button';
+import Scroller from "./components/Scroller";
+import Footer from "./components/Footer";
 
 class App extends Component {
   constructor(props) {
@@ -21,6 +21,7 @@ class App extends Component {
     return (
       <div>
         <Scroller></Scroller>
+        <Footer></Footer>
       </div>
     );
   }

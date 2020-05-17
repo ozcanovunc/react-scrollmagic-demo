@@ -2,9 +2,13 @@
 
 Personal website built with React
 
-### Running Locally
+## Running Locally
 
 ```sh
-yarn
 yarn run build:dev
+```
+
+## Publishing
+```sh
+yarn run build:prod
 ```

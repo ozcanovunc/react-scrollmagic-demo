@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ScrollMagic from 'scrollmagic';
+import { username } from "../profileConfig.json";
 //import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
+import { Typography } from "@material-ui/core";
 
 export default class Scroller extends Component {
   constructor(props) {
@@ -32,7 +34,9 @@ export default class Scroller extends Component {
         <div 
             ref={(e) => this.triggerRef = e}
             id="#intro">
-            <h1>Ozcan Ovunc</h1>
+            <Typography variant="h2" component="h1" gutterBottom>
+              {username}
+            </Typography>
             <video
                 ref={(e) => this.videoRef = e}
                 src="/src/assets/videos/background.mp4"
