@@ -1,39 +1,39 @@
-import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { Container, Typography, CssBaseline } from "@material-ui/core";
-import { username } from "../profileConfig.json";
+import React, { Component } from 'react';
+import { username, social } from "../profileConfig.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faGithub,
+  faLinkedin,
+  faMedium,
+  faInstagram,
+  faTelegramPlane
+} from "@fortawesome/free-brands-svg-icons";
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexDirection: "column",
-  },
-  main: {
-    marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(2),
-  },
-  footer: {
-    padding: theme.spacing(3, 2),
-    backgroundColor:
-      theme.palette.type === "light"
-        ? theme.palette.grey[200]
-        : theme.palette.grey[800],
-  },
-}));
-
-export default function Footer() {
-  const classes = useStyles();
-
-  return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <footer className={classes.footer}>
-        <Container maxWidth="sm">
-          <Typography variant="body2" color="textSecondary" align="center">
-            {"Copyright © "}{username} {new Date().getFullYear()}
-          </Typography>
-        </Container>
-      </footer>
-    </div>
-  );
+export default class Footer extends Component {
+  render() {
+    return (
+      <div className="footer">
+        <div className="footer-icon-container">
+          <a className="footer-icon-wrapper" href={social.github} target="_blank">
+            <FontAwesomeIcon className="footer-icon" icon={faGithub} size="2x" />
+          </a>
+          <a className="footer-icon-wrapper" href={social.linkedin} target="_blank">
+            <FontAwesomeIcon className="footer-icon" icon={faLinkedin} size="2x" />
+            </a>
+          <a className="footer-icon-wrapper" href={social.medium} target="_blank">
+            <FontAwesomeIcon className="footer-icon" icon={faMedium} size="2x" />
+            </a>
+          <a className="footer-icon-wrapper" href={social.instagram} target="_blank">
+            <FontAwesomeIcon className="footer-icon" icon={faInstagram} size="2x" />
+            </a>
+          <a className="footer-icon-wrapper" href={social.mail}>
+            <FontAwesomeIcon className="footer-icon" icon={faTelegramPlane} size="2x" />
+            </a>
+        </div>
+        {/* <div className="footer-title">
+          {"Copyright © "}{username} {new Date().getFullYear()}
+        </div> */}
+      </div>
+    );
+  }
 }

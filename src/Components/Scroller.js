@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import ScrollMagic from 'scrollmagic';
 import { username } from "../profileConfig.json";
-//import "scrollmagic/scrollmagic/uncompressed/plugins/debug.addIndicators";
-import { Typography } from "@material-ui/core";
 
 export default class Scroller extends Component {
   constructor(props) {
@@ -14,10 +12,10 @@ export default class Scroller extends Component {
 
   componentDidMount() {
     new ScrollMagic.Scene({
-        duration: 4000, // Time of video
-        triggerElement: this.triggerRef,
-        triggerHook: 0
-      })
+      duration: 4000, // Time of video
+      triggerElement: this.triggerRef,
+      triggerHook: 0
+    })
       .setPin(this.triggerRef)
       .on("update", this.updateScene)
       .addTo(this.controller);
@@ -30,18 +28,20 @@ export default class Scroller extends Component {
   }
 
   render() {
-      return (
-        <div 
-            ref={(e) => this.triggerRef = e}
-            id="#intro">
-            <Typography variant="h2" component="h1" gutterBottom>
-              {username}
-            </Typography>
-            <video
-                ref={(e) => this.videoRef = e}
-                src="/src/assets/videos/background.mp4"
-            />
-        </div>    
-      );
+    return (
+      <div
+        ref={(e) => this.triggerRef = e}
+        id="#intro"
+        className="scroller-base">
+        <div className="scroller-title">
+          {username}
+        </div>
+        <video
+          className="scroller-video"
+          ref={(e) => this.videoRef = e}
+          src="/src/assets/videos/background.mp4"
+        />
+      </div>
+    );
   }
 }

@@ -1,3 +1,10 @@
 {
-    "username": "Ozcan Ovunc"
+    "username": "Ozcan Ovunc",
+    "social": {
+        "github": "https://github.com/ozcanovunc",
+        "linkedin": "https://www.linkedin.com/in/ozcanovunc",
+        "medium": "https://medium.com/@ozcanovunc",
+        "instagram": "https://instagram.com/ozcanovunc",
+        "mail": "mailto:ozcanovunc@outlook.com"
+    }
 }
