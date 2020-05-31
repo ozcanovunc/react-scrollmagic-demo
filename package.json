@@ -1,7 +1,6 @@
 {
-  "name": "ozcanovunc.github.io",
+  "name": "react-scrollmagic-demo",
   "version": "1.0.0",
-  "homepage": "https://ozcanovunc.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -13,8 +12,7 @@
   },
   "scripts": {
     "build:dev": "webpack-dev-server --open --config webpack.dev.js",
-    "build:prod": "webpack --config webpack.prod.js && echo 'all done'",
-    "start": "webpack --config webpack.prod.js && echo 'all done' && node server.js"
+    "build:prod": "webpack --config webpack.prod.js && echo 'all done'"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

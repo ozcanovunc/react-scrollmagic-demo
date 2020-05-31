@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { username, social } from "../profileConfig.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -14,19 +13,19 @@ export default class Footer extends Component {
     return (
       <div className="footer">
         <div className="footer-icon-container">
-          <a className="footer-icon-wrapper" href={social.github} target="_blank">
+          <a className="footer-icon-wrapper" target="_blank">
             <FontAwesomeIcon className="footer-icon" icon={faGithub} size="2x" />
           </a>
-          <a className="footer-icon-wrapper" href={social.linkedin} target="_blank">
+          <a className="footer-icon-wrapper" target="_blank">
             <FontAwesomeIcon className="footer-icon" icon={faLinkedin} size="2x" />
             </a>
-          <a className="footer-icon-wrapper" href={social.medium} target="_blank">
+          <a className="footer-icon-wrapper" target="_blank">
             <FontAwesomeIcon className="footer-icon" icon={faMedium} size="2x" />
             </a>
-          <a className="footer-icon-wrapper" href={social.instagram} target="_blank">
+          <a className="footer-icon-wrapper" target="_blank">
             <FontAwesomeIcon className="footer-icon" icon={faInstagram} size="2x" />
             </a>
-          <a className="footer-icon-wrapper" href={social.mail}>
+          <a className="footer-icon-wrapper" target="_blank">
             <FontAwesomeIcon className="footer-icon" icon={faTelegramPlane} size="2x" />
             </a>
         </div>

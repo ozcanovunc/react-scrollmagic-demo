@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ScrollMagic from 'scrollmagic';
-import { username } from "../profileConfig.json";
 
 export default class Scroller extends Component {
   constructor(props) {
@@ -34,7 +33,7 @@ export default class Scroller extends Component {
         id="#intro"
         className="scroller-base">
         <div className="scroller-title">
-          {username}
+          Ozcan Ovunc
         </div>
         <video
           className="scroller-video"
