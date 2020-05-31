@@ -18,7 +18,7 @@ npm i
 - After installing the dependencies run the following command to create a dev build
 - After the build completes, you'll be automatically redirected to **http://localhost:8080/**
 ```
-npm run build:prod
+npm run build:dev
 ```
 ## Release
 
